@@ -1,5 +1,5 @@
-int[] array = {1, 2, 3, 4, 5};
-int summ = 0;
-for (int i = 0; i < array.Length; i++)
-     summ += array[i];
-int mid = summ/array.Length;
+var a = 10;
+var b = 20;
+var c = 5;
+var d = ((a+b+c)/3)
+console.log(d)
