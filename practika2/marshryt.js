@@ -4,6 +4,6 @@ const requestHandler = (request, response) => {
     if(request.url === "/home" || request.url === "/"){
         response.write("<h2>Home</h2>");
 }
-response.end('NORM');
+response.end('HELLO');
 };
 http.createServer(requestHandler).listen(3000);
