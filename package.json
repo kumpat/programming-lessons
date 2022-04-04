@@ -1,0 +1,23 @@
+{
+  "name": "programming-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "variables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumpat/programming-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumpat/programming-lessons/issues"
+  },
+  "homepage": "https://github.com/kumpat/programming-lessons#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
