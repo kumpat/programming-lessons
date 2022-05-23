@@ -17,15 +17,15 @@ app.listen(app.get('port'), function () {
         app.get('port') + '; нажмите Ctrl+C для завершения.');
 });
 app.get('/', function (req, res) {
-    res.type('text/plain');
+    res.type('spisok');
     res.send('Главная страница');
 });
     app.get('/about', function (req, res) {
-    res.type('text/plain');
+    res.type('spisok');
     res.send('О главной странице');
 });
     app.use(function (req, res, next) {
-      res.type('text/plain');
+      res.type('spisok');
       res.status(404);
         res.send('404 — Не найдено');
 });
@@ -38,5 +38,3 @@ app.get('/', function (req, res) {
     app.get('/about/directions', function (req, res) {
    
     })
-    
-    

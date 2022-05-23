@@ -15,7 +15,6 @@ axios.get("https://jsonplaceholder.typicode.com/todos")
         });
     }
     )
-    
     .catch(function (error) {
         console.log(error);
     })
